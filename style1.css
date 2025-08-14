@@ -1,0 +1,88 @@
+@media (max-width:768px) {
+    .menu-icon {
+        display: block;
+        margin-right: 5vw;
+    }
+
+    .a1 ul {
+        display: none;
+        /* Hide nav items for mobile */
+        flex-direction: column;
+        background-color: white;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+    }
+
+    .a1 ul.show {
+        display: flex;
+        /* Shown when toggled by JS */
+    }
+
+    .right {
+        border: 2px solid rgb(248, 248, 248);
+        height: 40vh;
+        width: 30vh;
+        
+
+    }
+
+    .c2 {
+        font-size: 1.3rem;
+
+    }
+
+    .left2 {
+        
+        text-align: center;
+    }
+    .scroll-down {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 3rem;
+        color: #555;
+        animation: bounce 2s infinite;
+        cursor: pointer;
+        transition: color 0.3s;
+    }
+    .c3{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 11%;
+    }
+    .right3 {
+        border: 2px solid rgb(252, 251, 251);
+        height: 50vh;
+        width: 35vh;
+        
+    
+    }
+    .left3 {
+        width: 100vh;
+        
+    
+    }
+    .left3 p{
+        word-wrap: break-word;
+        padding: 13px 4% 0;
+        text-align: center;
+    }
+    .a5{
+        display: flex;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    .left3>.b1 {
+        height: 50px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: rgb(14 161 157 / 96%);
+        border: none;
+        cursor: pointer;
+        margin: 0px auto;
+        display: block;
+    }
+}
